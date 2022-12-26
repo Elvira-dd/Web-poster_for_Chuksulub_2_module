@@ -1,0 +1,78 @@
+/* ПЕРВЫЙ ЭКРАН */
+.first_s {
+    width: 100vw;
+    height: 63vw;
+}
+/* ФОН  */
+.left_galaxy {
+  width: 30vw;
+  height: 30vw;
+  display: block;
+  position:absolute;
+  margin-top: -8vw;
+  margin-left: -10vw;
+}
+.right_galaxy {
+  width: 20vw;
+  height: 20vw;
+  display: block;
+  position: absolute;
+  right: 0;
+  margin-top:40vw ;
+}
+.first_screen_bg {
+  position: absolute;
+  margin: 0 auto;
+  width: 100vw;
+  height: 63vw;
+  display: flex;
+}
+.bg_left_galaxy {
+  width: 12vw;
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 9vw;
+  margin-top: 27vw;
+}
+.bg_left_galaxy div:nth-child(1) {
+  margin-top: 1vw;
+}
+.bg_left_galaxy div:nth-child(2) {
+  margin-top: 5vw;
+}
+.bg_rigth_galaxy {
+  width: 16vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left:59vw ;
+  margin-top: 7vw;
+}
+/* Галактика в центре */ 
+.main_galaxy {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2vw;
+    height: 40vw;
+    width:40vw;
+}
+.first_text_block {
+  height: 13vw ;
+  width: 25vw;
+  border-right: 3px solid #B8EC49;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  margin-top: -11vw;
+  margin-right: 10vw;
+}
+.first_center_elements {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+}

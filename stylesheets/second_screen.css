@@ -1,0 +1,144 @@
+/* ВТОРОЙ ЭКРАН */
+.second_s {
+    width: 100%;
+    height: 45vw ;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 7vw;
+  }
+ .planets {              /*  Планеты  */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vw;
+    z-index: 1000;
+    margin-bottom: -5vw;;
+  }
+
+  .green_circels {    /* Альфа центавра */
+    width: 16vw;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    margin-right: 10px;
+    margin-top: -2.5vw;
+  }
+  .green_border { /* Зеленая рамка */
+    width:40vw;
+    height: 13vw;
+    border-top: 4px solid #B8EC49;
+    border-right: 4px solid #B8EC49;
+    border-left: 4px solid #B8EC49;
+    margin-left: 50vw;
+    margin-bottom: -23vw;
+    position: relative;
+  }
+  .left_borders { /* Левые бордюры планет */
+    display: flex;
+    width: 48vw;
+    align-items: flex-end;
+    justify-content:flex-end;
+  }
+  .left_borders div {
+    opacity: 0.4;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    position: absolute;
+    z-index: 10;
+  }
+  .left_borders div:nth-child(1) {
+    width:12.5vw;
+    height: 3vw;
+    margin-bottom: 7vw;
+  }
+  .left_borders div:nth-child(2) {
+    width: 20.6vw ;
+    height: 4vw;
+    margin-bottom: 5vw;
+  }
+  .left_borders div:nth-child(3) {
+    width: 32.5vw ;
+    height: 3vw;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+  }
+  .left_borders div:nth-child(4) {
+    width: 48vw ;
+    height: 4vw;
+    border-left: 0px;
+  }
+  
+  .right_borders { /* Правые бордюры планет */
+    display: flex;
+    width: 48vw;
+    margin-left: 49vw;
+    align-items: flex-end;
+  }
+  .right_borders div {
+    opacity: 0.4;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    position: absolute;
+    z-index: 10;
+  }
+  .right_borders div:nth-child(1) {
+    width:12.5vw;
+    height: 3vw;
+    margin-bottom: 7vw;
+  }
+  .right_borders div:nth-child(2) {
+    width: 21vw ;
+    height: 4vw;
+    margin-bottom: 5vw;
+  }
+  .right_borders div:nth-child(3) {
+    width: 27vw ;
+    height: 7vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+  }
+  .right_borders div:nth-child(4) {
+    width: 51vw ;
+    height: 4vw;
+    border-right: 0px;
+  }
+
+
+  /*Настройки планет */
+  .line_for_naming {
+    display: block;
+    width: 3px;
+    background-color: white;
+    opacity: 0.4;
+  }
+  .stars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .stars_naming {
+    display: flex;
+  }
+  .stars_naming h4 {
+    margin-left: 8px;
+    position: absolute;
+  }
+  
+  .stars_naming_green {
+    height: 15vw;
+    width: 3px;
+    background-color: #B8EC49;
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 9vw;
+    margin-top: -6vw;
+  }
+  .second_s h3 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 70px;
+  }
