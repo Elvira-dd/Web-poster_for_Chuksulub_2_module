@@ -1,10 +1,15 @@
 /* ПЕРВЫЙ ЭКРАН */
 .first_s {
     width: 100vw;
+    max-width: 100%;
     height: 60vw;
+    overflow: hidden;
+}
+.first_screen_bg img:nth-child(5) {
+  display: none;
 }
 /* ФОН  */
-.left_galaxy {
+.left_galaxy { /* Картинка*/
   width: 25vw;
   height: 25vw;
   display: block;
@@ -12,33 +17,22 @@
   margin-top: -8vw;
   margin-left: -10vw;
 }
-.right_galaxy {
+.right_galaxy { /* Картинка*/
   width: 15vw;
   height: 15vw;
   display: block;
   position: absolute;
   right: 0;
-  bottom:5vw;
+  top: 45vw;
 }
 .first_screen_bg {
   position: absolute;
   margin: 0 auto;
   width: 100vw;
-  height: 63vh;
+  height: 63vw;
   display: flex;
 }
-.first_screen_bg img:nth-child(3) {
-  position: absolute;
-            height: 39vw;
-            z-index: 0;
-}
-.first_screen_bg img:nth-child(4) {
-  position: absolute;
-  height: 55vw;
-  right: 0;
-   z-index: 0;
-}
-.bg_left_galaxy {
+.bg_left_galaxy { /* Сбор кружочков*/
   width: 13vw;
   height: 40vw;
   display: flex;
@@ -47,7 +41,26 @@
   margin-left: 7vw;
   margin-top: 25vw;
 }
-.bg_rigth_galaxy {
+.bg_left_galaxy div:nth-child(1) {
+  height:2vw; 
+  width:2vw; 
+  margin-top: 1vw
+}
+.bg_left_galaxy div:nth-child(2) { 
+  height:3vw; 
+  width:3vw; 
+  margin-top: 5vw;
+}
+.bg_left_galaxy div:nth-child(3) { 
+  height:4vw; 
+  width:4vw
+}
+.bg_left_galaxy div:nth-child(4) { 
+  height: 4vw; 
+  width: 4vw; 
+  margin-top: 27vw;
+}
+.bg_rigth_galaxy { /*Сбор кружочков*/
   width: 16vw;
   height: 20vw;
   display: flex;
@@ -56,13 +69,38 @@
   margin-left:61vw ;
   margin-top: 7vw;
 }
+.bg_rigth_galaxy div:nth-child(1) {
+  height:2vw; 
+  width:2vw; 
+  margin-top: 20vw ; 
+  margin-left: 10vw;
+}
+.bg_rigth_galaxy div:nth-child(2) {
+  height:2vw; width:2vw; margin-top: 15vw ;
+}
+.bg_rigth_galaxy div:nth-child(3) {
+  height:2vw; width:2vw
+}
+.first_screen_bg img:nth-child(3) { /* Полоска*/
+  position: absolute;
+            height: 39vw;
+            z-index: 0;
+}
+.first_screen_bg img:nth-child(4) { /* Полоски*/
+  position: absolute;
+  height: 55vw;
+  right: 0;
+   z-index: 0;
+}
+
+
 /* Галактика в центре */ 
 .main_galaxy {
     display: block;
     position: relative;
     margin: 10vh auto;
     height: 40vw;
-    width:100vw;
+    width:40vw;
 }
 .first_text_block {
   height: 13vw ;

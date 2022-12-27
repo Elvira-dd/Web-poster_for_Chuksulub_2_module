@@ -1,30 +1,10 @@
-@media all and (min-width:768px) and  (max-width:1023px) {
-    .first_s {
-        height: 100vh;
-    }
-    .first_screen_bg img:nth-child(3) {
-        margin-left: -16vw;
-        scale: 1.5;
-    }
-    .first_screen_bg img:nth-child(4) {
-        scale: 2.5;
-        margin-top: 34vw;
-        margin-right: 20vw;
-    }
-    .bg_left_galaxy {
-
-    }
-    .main_galaxy {
-        scale: 1.75;
-        margin: 25vh ;
-    }
-}
 /* АДАПТИВ НА 1024px */
 @media all and (width:1024px) {
     /* Первый экран */
     .first_s {
         height: 73vw;
     }
+
         .first_screen_bg img:nth-child(4) {
         height: 70vw;
     }
@@ -39,4 +19,171 @@
         height: 60vw;
         margin-top: 15vw;
     }
+}
+
+
+
+
+
+
+
+/* АДАПТИВ НА IPAD */
+@media all and (min-width:768px) and  (max-width:1023px) {
+    h3 {
+        font-size: 34px;
+        line-height: 45px;
+        font-weight: 500;
+    }
+    h4 {
+        font-size: 34px;
+        line-height: 45px;
+        font-weight: 400;
+    }
+    /* Первый экран */
+    .first_s {
+        height: 100vh;
+    }
+    .left_galaxy {
+        width: 35vw;
+        height: 35vw;
+    }
+    .right_galaxy {
+        width: 25vw;
+        max-width: 100%;
+        height: 25vw;
+        margin-top: 65vw;
+    }
+    .first_screen_bg img:nth-child(3) {
+        margin-left: -29vw;
+        height: 46vh;
+    }
+    .first_screen_bg img:nth-child(4) {
+        display: none;
+    }
+    .first_screen_bg img:nth-child(5) {
+        display: block;
+        position: absolute;
+        right: 0;
+        height: 100vh;
+    }
+    .bg_left_galaxy {
+        width: 16vw;
+    }
+    .bg_left_galaxy div:nth-child(1) {
+        height: 4vw;
+        width:4vw;
+        margin-top: 18vw;
+        margin-left: -13vw;
+    }
+    .bg_left_galaxy div:nth-child(2) {
+        height: 3vw;
+        width:3vw;
+        margin-top: 14vw;
+        margin-left: 5vw;
+    }
+    .bg_left_galaxy div:nth-child(3) {
+        height: 8vw;
+        width:8vw;
+        margin-left: -8vw;
+        margin-top: 3vw;
+    }
+    .bg_left_galaxy div:nth-child(4) {
+        height: 5vw;
+        width:5vw;
+        margin-top: 92vw;
+    }
+    .bg_right_galaxy {
+        width: 25vw;
+    }
+    .bg_rigth_galaxy div:nth-child(1) {
+        height: 4vw;
+        width:4vw;
+        margin-left: -16vw;
+        margin-top: 75vw;
+    }
+    .bg_rigth_galaxy div:nth-child(2) {
+        height: 4vw;
+        width:4vw;
+        margin-left: 6vw;
+        margin-top: 48vw;
+    }
+    .bg_rigth_galaxy div:nth-child(3) {
+        height: 4vw;
+        width:4vw;
+        margin-top: 13vw;
+        margin-left: -10vw;
+    }
+    .main_galaxy {
+        scale: 2;
+        margin: 25vh ;
+    }
+    .first_text_block {
+        height: 20vw;
+        width: 46vw;
+        border-right: 4px solid #B8EC49;
+        margin-top: -36vw;
+        margin-right: 3vw;
+    }
+
+}
+@media all and (max-width:1023px) {
+        /* ВТОРОЙ ЭКРАН */
+        .second_s {
+            display: none;
+        }
+        .second_s_vertical {
+            display: flex;
+            height: 200vw;
+            width: 100vw;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ver_planets:nth-child(1) {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .ver_stars {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ver_stars div {
+            margin-bottom: 5vw;
+        }
+        .ver_names {
+            display: flex;
+            height: 42.5vw;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-left: 10vw;
+            margin-top: 7vw;
+        }
+        .ver_border {
+            height: 60vw;
+            position: absolute;
+        }
+        .ver_border div {
+            border-left: 0.5vw solid #717171;
+            border-top: 0.5vw solid #717171;
+            border-bottom: 0.5vw solid #717171;
+            float: right;
+            position: absolute;
+        }
+        .ver_planets:nth-child(2) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ver_planets:nth-child(3) {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            margin-top: 10vw;
+        }
+        .ver_planets:nth-child(3) .ver_border div {
+            border-right: 0.5vw solid #717171;
+            border-left: 0;
+        }
 }
