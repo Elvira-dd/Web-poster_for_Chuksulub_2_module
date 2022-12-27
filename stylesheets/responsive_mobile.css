@@ -1,0 +1,59 @@
+@media all and (max-width:767px) and (min-width:319px) {
+    h3 {
+        font-size: 4vw;
+        line-height: 4.5vw;
+    }
+
+.bottom {
+    display: none;
+}
+
+    /* первый экран */
+    .first_s {
+        height: 100vh;
+    }
+    .left_galaxy {
+        display: none;
+    }
+    .right_galaxy {
+        display:none
+    }
+    .first_screen_bg {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .first_screen_bg img:nth-child(3) {
+        height: 50vh;
+        margin-left: -50vw;
+    }
+    .first_screen_bg img:nth-child(4) {
+        height: 100vh;
+        right: -24vw;
+        margin-top: -3vw;
+        
+    }
+    .bg_left_galaxy {
+        width: 25vw;
+    }
+    .bg_left_galaxy div:nth-child(1) {
+        width: 10vw;
+        height: 10vw;
+    }
+    .bg_left_galaxy div:nth-child(2) {
+        width: 5vw;
+        height: 5vw;
+    }
+    .bg_left_galaxy div:nth-child(3) {
+        width: 5vw;
+        height: 5vw;
+    }
+    .bg_left_galaxy div:nth-child(4) {
+        display: none;
+    }
+    .main_galaxy {
+        width: 120vw;
+        height: 120vw;
+        margin-left: -10vw;
+        margin-top: 18vh;
+    }
+}

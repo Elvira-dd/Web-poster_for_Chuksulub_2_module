@@ -9,7 +9,9 @@ body {
 ::-webkit-scrollbar {
   width: 0px;
 }
-
+.second_s_small {
+  display: none;
+}
 .circel {
   position: relative;
   background: linear-gradient(45deg, rgba(217,217,217,1) 0%, rgba(80,80,80,1) 10%, rgba(18,18,18,1) 45%, rgba(0,0,0,1) 100%);

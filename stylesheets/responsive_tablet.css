@@ -14,6 +14,9 @@
     .main_galaxy {
         height: 50vw;
     }
+    .first_text_block {
+        margin: -25vw
+    }
     /* ВТорой экран */
     .second_s {
         height: 60vw;
@@ -127,63 +130,98 @@
 
 }
 @media all and (max-width:1023px) {
-        /* ВТОРОЙ ЭКРАН */
-        .second_s {
-            display: none;
-        }
-        .second_s_vertical {
-            display: flex;
-            height: 200vw;
-            width: 100vw;
-            flex-direction: column;
-            align-items: center;
-        }
-        .ver_planets:nth-child(1) {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-        }
-        .ver_stars {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .ver_stars div {
-            margin-bottom: 5vw;
-        }
-        .ver_names {
-            display: flex;
-            height: 42.5vw;
-            flex-direction: column;
-            align-items: flex-start;
-            justify-content: space-between;
-            margin-left: 10vw;
-            margin-top: 7vw;
-        }
-        .ver_border {
-            height: 60vw;
-            position: absolute;
-        }
-        .ver_border div {
-            border-left: 0.5vw solid #717171;
-            border-top: 0.5vw solid #717171;
-            border-bottom: 0.5vw solid #717171;
-            float: right;
-            position: absolute;
-        }
-        .ver_planets:nth-child(2) {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .ver_planets:nth-child(3) {
-            display: flex;
-            flex-direction: row-reverse;
-            align-items: center;
-            margin-top: 10vw;
-        }
-        .ver_planets:nth-child(3) .ver_border div {
-            border-right: 0.5vw solid #717171;
-            border-left: 0;
-        }
+    .third_s {
+        display: none;
+    }
+/* ВТОРОЙ ЭКРНА */
+.second_s {
+    display: none;
+}
+.second_s_small {
+    display: block;
+    height: 450px;
+    float:right;
+    position: relative;
+    margin-top:30vw
+}
+.planets {
+    justify-content: unset;
+    margin-bottom: -60px;
+    margin-top: 150px;
+}
+.green_border {
+    height: 120px;
+    width: 500px;
+    border: 3px solid #B8EC49;
+    border-bottom: 0;
+    margin-left: 640px;
+    margin-bottom: -250px;
+}
+.second_s_small h4 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.green_circels {
+    width: 185px;
+    height: 360px;
+    margin-left: 35px;
+}
+.second_s_small .stars {
+    margin-left: 35px;
+}
+.left_borders {
+    width: 620px;
+    margin-top: 60px;
+}
+.left_borders div:nth-child(4) {
+    width: 480px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.left_borders div:nth-child(2) {
+    width: 380px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+.left_borders div:nth-child(3) {
+    width: 230px;
+    height: 60px;
+    margin-bottom: 80px;
+}
+.left_borders div:nth-child(1) {
+    width: 150px;
+    height: 40px;
+    margin-bottom: 110px;
+}
+.right_borders {
+    width: 620px;
+    margin-left: 650px;
+}
+.right_borders div:nth-child(4) {
+    width: 620px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+.right_borders div:nth-child(2) {
+    width: 345px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.right_borders div:nth-child(3) {
+    width: 245px;
+    height: 60px;
+    margin-bottom: 80px;
+}
+.right_borders div:nth-child(1) {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 110px;
+}
+.stars_naming_green {
+    margin-top: -130px;
+    height: 170px;
+    margin-right: 130px;
+}
 }

@@ -98,7 +98,7 @@
 .main_galaxy {
     display: block;
     position: relative;
-    margin: 10vh auto;
+    margin: 10vw auto;
     height: 40vw;
     width:40vw;
 }
@@ -109,7 +109,8 @@
   display: flex;
   align-items: flex-end;
   justify-content: end;
-  margin: -15vw
+  margin: -20vw;
+  margin-right: -9vw;
 }
 .first_center_elements {
   display: flex;
