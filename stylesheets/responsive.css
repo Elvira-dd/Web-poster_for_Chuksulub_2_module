@@ -1,48 +1,4 @@
-@media all and (min-width:1024px) and (max-width: 1439px)  {
-    .stars img {
-        scale: 0.7;
-    }
-}
-@media all and (min-width:1024px) {
-    h4 {
-        font-size: 1.25vw;
-    line-height: 1.75vw ;
-    }
-}
-@media all and (max-width:1023px) {
-    h4 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-}
-/* @media all and (min-width:1540px)  {
-    .system_planets div:nth-child(8) {
-        width: 4vw;
-        height: 4vw;
-        margin-top: 20vw;
-        margin-left: 6vw;
-      }
-      .system_planets div:nth-child(9) {
-        width: 3vw;
-    height: 3vw;
-    margin-left: 5vw;
-    margin-top: 21vw;
-      }
-}
-@media all and (min-width:1440px) and (max-width:1540px) {
-    .system_planets div:nth-child(8) {
-        width: 4vw;
-        height: 4vw;
-        margin-top: 20vw;
-        margin-left: 6vw;
-      }
-      .system_planets div:nth-child(10) {
-        width: 3vw;
-    height: 3vw;
-    margin-left: -2.5vw;
-    margin-top: 16vw;
-      }
-} */
+
 @media all and (min-width:1024px) and (max-width:1280px) {
     .system_planets div:nth-child(10) {
     width: 3vw;
@@ -58,12 +14,6 @@
         }
 }
 @media all and (min-width:1280px) and (max-width:1441px) {
-    .system_planets div:nth-child(8) {
-        width: 4vw;
-        height: 4vw;
-        margin-top: 20vw;
-        margin-left: 7vw;
-      }
       .system_planets div:nth-child(10) {
         width: 3vw;
         height: 3vw;
@@ -72,12 +22,6 @@
         }
 }
 @media all and (min-width:1442px) and (max-width:1920px) {
-    .system_planets div:nth-child(8) {
-        width: 4vw;
-        height: 4vw;
-        margin-top: 20vw;
-        margin-left: 6vw;
-      }
       .system_planets div:nth-child(10) {
         width: 3vw;
         height: 3vw;

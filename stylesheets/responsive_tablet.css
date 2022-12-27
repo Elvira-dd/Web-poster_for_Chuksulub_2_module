@@ -1,0 +1,42 @@
+@media all and (min-width:768px) and  (max-width:1023px) {
+    .first_s {
+        height: 100vh;
+    }
+    .first_screen_bg img:nth-child(3) {
+        margin-left: -16vw;
+        scale: 1.5;
+    }
+    .first_screen_bg img:nth-child(4) {
+        scale: 2.5;
+        margin-top: 34vw;
+        margin-right: 20vw;
+    }
+    .bg_left_galaxy {
+
+    }
+    .main_galaxy {
+        scale: 1.75;
+        margin: 25vh ;
+    }
+}
+/* АДАПТИВ НА 1024px */
+@media all and (width:1024px) {
+    /* Первый экран */
+    .first_s {
+        height: 73vw;
+    }
+        .first_screen_bg img:nth-child(4) {
+        height: 70vw;
+    }
+    .bg_rigth_galaxy {
+        margin-left:58vw
+    }
+    .main_galaxy {
+        height: 50vw;
+    }
+    /* ВТорой экран */
+    .second_s {
+        height: 60vw;
+        margin-top: 15vw;
+    }
+}
