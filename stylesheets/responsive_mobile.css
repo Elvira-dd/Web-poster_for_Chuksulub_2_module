@@ -1,7 +1,8 @@
 @media all and (max-width:767px) and (min-width:319px) {
     h3 {
-        font-size: 4vw;
-        line-height: 4.5vw;
+        font-size: 6vw;
+        line-height: 6.5vw;
+        text-align: right;
     }
 
 .bottom {
@@ -33,27 +34,51 @@
         
     }
     .bg_left_galaxy {
-        width: 25vw;
+        width: 32vw;
     }
     .bg_left_galaxy div:nth-child(1) {
         width: 10vw;
         height: 10vw;
+        margin-top: 5vw;
     }
     .bg_left_galaxy div:nth-child(2) {
         width: 5vw;
         height: 5vw;
+        margin-top: 31vw;
+        margin-left: -3vw;
     }
     .bg_left_galaxy div:nth-child(3) {
         width: 5vw;
         height: 5vw;
+        margin-left: 15vw;
+        margin-top: 24vw
     }
     .bg_left_galaxy div:nth-child(4) {
         display: none;
     }
+    .bg_rigth_galaxy {
+        margin-left:28vw;
+        width: 20vw;
+        margin-top: 70vh;
+    }
+    .bg_rigth_galaxy div {
+        display: none;
+    }
+    .bg_rigth_galaxy div:nth-child(1) {
+        display: block;
+        width: 8vw;
+        height: 8vw;
+    }
+
     .main_galaxy {
         width: 120vw;
         height: 120vw;
         margin-left: -10vw;
         margin-top: 18vh;
+    }
+    .first_text_block {
+        height: 22vh;
+        margin-top: -40vw;
+        margin-left: 0;
     }
 }
