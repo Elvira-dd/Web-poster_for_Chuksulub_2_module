@@ -30,7 +30,7 @@
 
 
 
-/* АДАПТИВ НА IPAD */
+/* АДАПТИВ ТОЛЬКО НА IPAD */
 @media all and (min-width:768px) and  (max-width:1023px) {
     h3 {
         font-size: 34px;
@@ -130,7 +130,10 @@
     }
 
 }
-@media all and (max-width:1023px) and (min-width:200px) {
+
+
+/* АДАПТИВ НА ПЛАНШЕТЫ И МОБИЛКИ */
+@media all and (max-width:1023px) and (min-width:300px) {
     body {
         background: url(../images/mobile/bg_noise.png);
      }
@@ -206,14 +209,14 @@ h4 {
     margin-bottom: 30px;
 }
 .right_borders div:nth-child(2) {
-    width: 345px;
-    height: 100px;
+    width: 343px;
+    height: 107px;
     margin-bottom: 50px;
     margin-left: 20px;
 }
 .right_borders div:nth-child(3) {
-    width: 245px;
-    height: 60px;
+    width: 256px;
+    height: 70px;
     margin-bottom: 80px;
 }
 .right_borders div:nth-child(1) {
@@ -299,9 +302,9 @@ h4 {
     overflow: hidden;
     display: flex;
     width: 100%;
-    height: 680px;
+    height: 490px;
 
-    margin-top: 150vh;
+    margin-top: 190vw;
     position: relative;
 }
 .cards {
@@ -339,6 +342,7 @@ div + p {
 .bottom {
     height: 30vw;
     margin-bottom: 20px;
+    margin-top: 20vw;
 }
 .bottom img {
     height: 100%;
@@ -354,7 +358,7 @@ div + p {
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 2vw ;
-    margin-left: 45px ;
+    margin-left: 25px ;
   }
   .bottom_text img {
     height: 10vw;
@@ -365,4 +369,19 @@ div + p {
   .bottom h3 + p {
     margin-top:5px
   }
+}
+
+
+/* АДАПТИВ ТОЛЬКО НА МОБИЛКИ */
+
+@media all and (max-width:475px) and (min-width:300px) {
+    .proxima_circel_small div {
+        border: 1px solid white;
+    }
+    .alpha div {
+        border: 1px solid white;
+    }
+    .beta div {
+        border: 1px solid white;
+    }
 }
