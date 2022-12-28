@@ -1,9 +1,12 @@
 /* ЧЕТВЕРТЫЙ ЭКРАН */
+.fourth_s_small {
+  display:none
+}
 .fourth_s {
     display: flex;
     width: 100%;
     height: 680px;
-    overflow: hidden;
+
     margin-top: 8vw;
     position: relative;
   }

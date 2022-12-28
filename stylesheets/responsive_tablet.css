@@ -230,9 +230,6 @@ h4 {
     height: 170px;
     margin-right: 130px;
 }
-.fourth_s {
-    display: none;
-}
 .third_s {
     transform: rotate(-90deg);
     margin-left: 15vw;
@@ -253,14 +250,7 @@ h4 {
 .system div:nth-child(4) {
     display: block;
 }
-.system_planets {
 
-    transform: scaleY(-1);
-    width: 110vw;
-    scale: 2;
-    margin-left: -83vw;
-    margin-top: -33vw;
-}
 .system img:nth-child(4) {
     height: 200vw;
     width: 100vw;
@@ -270,42 +260,50 @@ h4 {
     scale: 0.55;
     transform: rotate(90deg);
 }
-.system_planets div:nth-child(16) {
-    margin-left: -1.5vw;
+.system_planets {
+    display: none;
 }
-.alpha_name {
-    transform: rotate(-90deg) scaleY(-1);
-    margin-top: 2vw;
+.fourth_s {
+    display: none;
+}
+.fourth_s_small {
+
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    margin-left: 76vw;
-    position: absolute;
-    width: 17vw;
+    width: 100%;
+    height: 680px;
+
+    margin-top: 200vw;
+    position: relative;
 }
-.alpha_name h4 {
-    margin-left: 5px;
+.cards {
+    padding:15px 25px 50px 25px ;
 }
-.alpha_name div {
-    width: 4px;
-    height: 10vw;
-    border-right: 3px solid white;
-    border-bottom: 0;
+h1 {
+    font-size: 38px;
 }
-.system_planets div:nth-child(7) {
-    margin-left: -5vw;
+h2 {
+    font-size:32px;
+    line-height:38px
 }
-.system_planets div:nth-child(3) {
-    margin-left: 12.5vw;
+p {
+    font-size: 14px;
+    line-height: 19px;
 }
-.beta_name {
-    transform: rotate(-90deg) scaleY(-1);
-    margin-top: 2vw;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-    margin-left: 76vw;
-    position: absolute;
-    width: 17vw;
+.cards img {
+    scale:0.55;
+    margin-left: -56px;
+}
+.card_planet div {
+    margin-left: -40px;
+}
+.card_planet {
+    margin-top: -35px
+}
+h1 + p {
+    font-size: 10px;
+    margin-top: -15px;
+}
+div + p {
+    margin-top:30px
 }
 }
