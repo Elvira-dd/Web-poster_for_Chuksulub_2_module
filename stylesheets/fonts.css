@@ -42,6 +42,12 @@ h1 {
     line-height: 1.75vw ;
     color: white;
   }
+  .b_text {
+    font-size: 48px;
+    line-height: 54px;
+    color: #B8EC49;
+    text-align: left;
+  }
   p {
     font-family: 'IBM Plex Mono';
     font-size: 18px;

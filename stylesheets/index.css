@@ -168,4 +168,9 @@ body {
 .bottom_text img {
   width: 195px;
   height: 78px;
+  margin-top: 40px;
+}
+.bottom h3 + p {
+  margin-top:10px; 
+  font-style: italic;
 }
