@@ -273,6 +273,23 @@ h4 {
 .alpha div:nth-child(7) {
     margin-right: 0;
 }
+.proxima_circel_small  {
+    display: block;
+    position: absolute;
+    width: 111vw;
+    height: 50vw;
+    margin-left: -6vw;
+    margin-top: -8vw;
+    overflow: hidden;
+  }
+  .proxima_circel_small div {
+    display: block;
+    width: 110vw;
+    height: 110vw;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-top: -31vw;
+  }
 
 /* 4444444444444444444 */
 .fourth_s {
