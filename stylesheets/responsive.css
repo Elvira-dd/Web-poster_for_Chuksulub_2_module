@@ -29,7 +29,7 @@
         margin-left: -2vw;
         }
 }
-@media all and (max-width:1025px) {
+@media all and (max-width:1025px)  and (min-width:769px){
     .beta div {
         border: 2px solid white;
     }

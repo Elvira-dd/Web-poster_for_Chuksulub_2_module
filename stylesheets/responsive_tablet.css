@@ -36,6 +36,7 @@
         font-size: 34px;
         line-height: 45px;
         font-weight: 500;
+        text-align: right;
     }
     h4 {
         font-size: 34px;
@@ -129,10 +130,15 @@
     }
 
 }
-@media all and (max-width:1023px) {
-    .third_s {
-        display: none;
-    }
+@media all and (max-width:1023px) and (min-width:200px) {
+    body {
+        background: url(../images/mobile/bg_noise.png);
+     }
+     .bottom {
+        display:none
+     }
+     h4 {
+     }
 /* ВТОРОЙ ЭКРНА */
 .second_s {
     display: none;
@@ -157,7 +163,7 @@
     margin-left: 640px;
     margin-bottom: -250px;
 }
-.second_s_small h4 {
+h4 {
     font-size: 15px;
     line-height: 20px;
 }
@@ -223,5 +229,83 @@
     margin-top: -130px;
     height: 170px;
     margin-right: 130px;
+}
+.fourth_s {
+    display: none;
+}
+.third_s {
+    transform: rotate(-90deg);
+    margin-left: 15vw;
+}
+.system {
+    margin-left: -50vw;
+    scale: 2;
+}
+.beta div {
+    border: 1.75px solid white;
+}
+.alpha div {
+    border:1.75px solid white
+}
+.system img:nth-child(1) {
+    display: none;
+}
+.system div:nth-child(4) {
+    display: block;
+}
+.system_planets {
+
+    transform: scaleY(-1);
+    width: 110vw;
+    scale: 2;
+    margin-left: -83vw;
+    margin-top: -33vw;
+}
+.system img:nth-child(4) {
+    height: 200vw;
+    width: 100vw;
+    margin-left: -2vw;
+    margin-top: -11vw;
+    position: absolute;
+    scale: 0.55;
+    transform: rotate(90deg);
+}
+.system_planets div:nth-child(16) {
+    margin-left: -1.5vw;
+}
+.alpha_name {
+    transform: rotate(-90deg) scaleY(-1);
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-left: 76vw;
+    position: absolute;
+    width: 17vw;
+}
+.alpha_name h4 {
+    margin-left: 5px;
+}
+.alpha_name div {
+    width: 4px;
+    height: 10vw;
+    border-right: 3px solid white;
+    border-bottom: 0;
+}
+.system_planets div:nth-child(7) {
+    margin-left: -5vw;
+}
+.system_planets div:nth-child(3) {
+    margin-left: 12.5vw;
+}
+.beta_name {
+    transform: rotate(-90deg) scaleY(-1);
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin-left: 76vw;
+    position: absolute;
+    width: 17vw;
 }
 }
