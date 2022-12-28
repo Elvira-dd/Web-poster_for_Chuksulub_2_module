@@ -20,7 +20,10 @@
     /* ВТорой экран */
     .second_s {
         height: 60vw;
-        margin-top: 15vw;
+        margin-top: 10vw;
+    }
+    .third_s {
+        margin-top:0
     }
 }
 
@@ -147,7 +150,7 @@
     height: 450px;
     float:right;
     position: relative;
-    margin-top:30vw
+    margin-top:20vw
 }
 .planets {
     justify-content: unset;
@@ -349,7 +352,7 @@ div + p {
 }
 .b_text {
     font-size: 5vw; 
-    line-height: 5.25vw;
+    line-height: 5.75vw;
 }
 .bottom_text {
     width:auto ;
@@ -383,5 +386,9 @@ div + p {
     }
     .beta div {
         border: 1px solid white;
+    }
+    .b_text {
+        font-size: 6vw; 
+        line-height: 6.25vw;
     }
 }
