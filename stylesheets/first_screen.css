@@ -64,7 +64,7 @@
   height: 4vw; 
   width: 4vw; 
   margin-top: 27vw;
-  animation: bg_left_galaxy_4 15s ease infinite ;
+  animation: bg_left_galaxy_4 5s linear infinite ;
 }
 .bg_rigth_galaxy { /*Сбор кружочков*/
   width: 16vw;

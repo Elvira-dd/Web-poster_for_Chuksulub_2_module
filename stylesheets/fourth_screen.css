@@ -10,6 +10,9 @@
     position: relative;
     animation: running_list 20s linear infinite;
   }
+  .fourth_s:hover {
+    animation-play-state: paused;
+  }
   .cards {
     height: auto;
     width: auto;
@@ -20,6 +23,11 @@
     border-radius: 30px;
     padding: 30px 25px 60px 25px;
     background-color: #121212;
+    transition-property: all;
+  transition: all ease 1s;
+  }
+  .cards:hover {
+    transform: scale(1.1);
   }
   .card_planet {
     margin-top: 30px;

@@ -192,13 +192,15 @@
   .system_planets div:nth-child(12) {
     width: 2vw;
     height: 2vw;
-    margin-top: 2vw;
+    margin-top: 4vw;
+    margin-left: -4vw;
+    animation: circel_12 4s linear infinite;
   }
   .system_planets div:nth-child(13) {
     width: 4vw;
     height: 4vw;
     margin-top: -2vw;
-    margin-left: 7vw;
+    margin-left: 11vw;
   }
   .system_planets div:nth-child(14) {
     width: 6.5vw;
