@@ -366,7 +366,7 @@ div + p {
   .bottom_text img {
     height: 10vw;
     position: relative;
-    width: fit-content;
+    width: 25vw;
     margin-top: 5vw;
   }
   .bottom h3 + p {
