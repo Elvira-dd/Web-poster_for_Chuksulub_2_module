@@ -5,6 +5,7 @@ body {
     background: url("../images/bg_noise.png");
     background-size:100%;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
 ::-webkit-scrollbar {
   width: 0px;

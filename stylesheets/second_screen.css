@@ -118,6 +118,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 100;
   }
   .stars_naming {
     display: flex;
@@ -141,4 +142,14 @@
     float: right;
     margin-right: 10px;
     margin-top: 70px;
+  }
+  .green_circels div:nth-child(2) {
+    animation: green_circel_md 6s linear infinite;
+  }
+  .green_circels div:nth-child(3) {
+    animation: green_circel_md 6s linear infinite;
+   
+  }
+  .green_circels div div:nth-child(1) {
+    animation: green_circel_sm 2s linear infinite;
   }

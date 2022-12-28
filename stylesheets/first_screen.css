@@ -16,6 +16,7 @@
   position:absolute;
   margin-top: -8vw;
   margin-left: -10vw;
+  animation: left_galaxy 60s infinite ease-in-out;
 }
 .right_galaxy { /* Картинка*/
   width: 15vw;
@@ -24,6 +25,7 @@
   position: absolute;
   right: 0;
   top: 45vw;
+  animation: right_galaxy 20s infinite ease-in-out;
 }
 .first_screen_bg {
   position: absolute;
@@ -44,21 +46,25 @@
 .bg_left_galaxy div:nth-child(1) {
   height:2vw; 
   width:2vw; 
-  margin-top: 1vw
+  margin-top: 1vw;
+  animation: bg_left_galaxy_1 6s linear infinite ;
 }
 .bg_left_galaxy div:nth-child(2) { 
   height:3vw; 
   width:3vw; 
   margin-top: 5vw;
+    animation: bg_left_galaxy_2 6s linear infinite ;
 }
 .bg_left_galaxy div:nth-child(3) { 
   height:4vw; 
-  width:4vw
+  width:4vw;
+    animation: bg_left_galaxy_3 6s linear infinite ;
 }
 .bg_left_galaxy div:nth-child(4) { 
   height: 4vw; 
   width: 4vw; 
   margin-top: 27vw;
+  animation: bg_left_galaxy_4 15s ease infinite ;
 }
 .bg_rigth_galaxy { /*Сбор кружочков*/
   width: 16vw;
@@ -72,14 +78,17 @@
 .bg_rigth_galaxy div:nth-child(1) {
   height:2vw; 
   width:2vw; 
-  margin-top: 20vw ; 
-  margin-left: 10vw;
+  margin-top: 16vw ; 
+  margin-left: 4vw;
+  animation: bg_right_galaxy_1 6s linear infinite ;
 }
 .bg_rigth_galaxy div:nth-child(2) {
   height:2vw; width:2vw; margin-top: 15vw ;
+  animation: bg_right_galaxy_2 6s linear infinite ;
 }
 .bg_rigth_galaxy div:nth-child(3) {
-  height:2vw; width:2vw
+  height:2vw; width:2vw;
+  animation: bg_right_galaxy_3 6s linear infinite ;
 }
 .first_screen_bg img:nth-child(3) { /* Полоска*/
   position: absolute;
@@ -98,9 +107,10 @@
 .main_galaxy {
     display: block;
     position: relative;
-    margin: 10vw auto;
-    height: 40vw;
-    width:40vw;
+    margin: 5vw auto;
+    height: 50vw;
+    width:50vw;
+    animation: main_galaxy 30s infinite linear;
 }
 .first_text_block {
   height: 13vw ;

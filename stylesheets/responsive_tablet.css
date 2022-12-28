@@ -266,7 +266,33 @@ h4 {
     transform: rotate(90deg);
 }
 .system_planets {
-    display: none;
+    width: 132vw;
+    height: 45vw;
+    position: absolute;
+    margin-top: -34vw;
+    display: flex;
+    flex-direction: row;
+    scale: 2;
+    margin-left: -114vw;
+    transform: scale(1, -1);
+}
+.system_planets div:nth-child(3) {
+    margin-left: 27.5vw;
+}
+.system_planets div:nth-child(4) {
+    margin-bottom: 15vw;
+    margin-left: 0;
+}
+.system_planets div:nth-child(1) {
+    margin-bottom: 13vw;
+    margin-left: 14vw;
+}
+.system_planets div:nth-child(7) {
+    margin-left: 10vw;
+    margin-top: 9vw;
+}
+.system_planets div:nth-child(16) {
+    margin-left: 0vw;
 }
 .alpha {
     justify-content: end;
@@ -296,7 +322,50 @@ h4 {
     border-radius: 100%;
     margin-top: -31vw;
   }
-
+.proxima_name {
+    transform: rotate(-90deg) scale(1, -1);
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 3vw;
+    flex-direction: row-reverse;
+    align-items: end;
+}
+.proxima_name div {
+    width: 3px;
+    height: 6vw;
+    border-bottom: 0;
+    border-left: 3px solid #717171;
+}
+.alpha_name {
+    transform: rotate(-90deg) scale(1, -1);
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 90vw;
+    flex-direction: row-reverse;
+    align-items: end;
+    width: 17vw;
+}
+.alpha_name div {
+    width: 3px;
+    height: 8vw;
+    border-bottom: 0;
+    border-left: 3px solid #717171;
+}
+.beta_name {
+    transform: rotate(-90deg) scale(1, -1);
+    position: absolute;
+    margin-top: 2vw;
+    margin-left: 39vw;
+    flex-direction: row-reverse;
+    align-items: end;
+    width: 17vw;
+}
+.beta_name div {
+    width: 3px;
+    height: 8vw;
+    border-bottom: 0;
+    border-left: 3px solid #717171;
+}
 /* 4444444444444444444 */
 .fourth_s {
     display: none;
@@ -376,7 +445,87 @@ div + p {
 
 
 /* АДАПТИВ ТОЛЬКО НА МОБИЛКИ */
+@media all and (max-width:767px) and (min-width:300px) {
+    h3 {
+        font-size: 6vw;
+        line-height: 6.5vw;
+        text-align: right;
+    }
 
+
+    /* первый экран */
+    .first_s {
+        height: 100vh;
+    }
+    .left_galaxy {
+        display: none;
+    }
+    .right_galaxy {
+        display:none
+    }
+    .first_screen_bg {
+        height: 100vh;
+        overflow: hidden;
+    }
+    .first_screen_bg img:nth-child(3) {
+        height: 50vh;
+        margin-left: -50vw;
+    }
+    .first_screen_bg img:nth-child(4) {
+        height: 100vh;
+        right: -24vw;
+        margin-top: -3vw;
+        
+    }
+    .bg_left_galaxy {
+        width: 32vw;
+    }
+    .bg_left_galaxy div:nth-child(1) {
+        width: 10vw;
+        height: 10vw;
+        margin-top: 5vw;
+    }
+    .bg_left_galaxy div:nth-child(2) {
+        width: 5vw;
+        height: 5vw;
+        margin-top: 31vw;
+        margin-left: -3vw;
+    }
+    .bg_left_galaxy div:nth-child(3) {
+        width: 5vw;
+        height: 5vw;
+        margin-left: 15vw;
+        margin-top: 24vw
+    }
+    .bg_left_galaxy div:nth-child(4) {
+        display: none;
+    }
+    .bg_rigth_galaxy {
+        margin-left:28vw;
+        width: 20vw;
+        margin-top: 70vh;
+    }
+    .bg_rigth_galaxy div {
+        display: none;
+    }
+    .bg_rigth_galaxy div:nth-child(1) {
+        display: block;
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .main_galaxy {
+        width: 120vw;
+        height: 120vw;
+        margin-left: -10vw;
+        margin-top: 18vh;
+    }
+    .first_text_block {
+        height: 22vh;
+        margin-top: -40vw;
+        margin-left: 0;
+    }
+}
 @media all and (max-width:475px) and (min-width:300px) {
     .proxima_circel_small div {
         border: 1px solid white;
