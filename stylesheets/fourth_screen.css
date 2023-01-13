@@ -10,6 +10,9 @@
     position: relative;
     animation: running_list 20s linear infinite;
   }
+  .fourth_s_out {
+    overflow: hidden;
+  }
   .fourth_s:hover {
     animation-play-state: paused;
   }
@@ -25,6 +28,7 @@
     background-color: #121212;
     transition-property: all;
   transition: all ease 1s;
+
   }
   .cards:hover {
     transform: scale(1.1);

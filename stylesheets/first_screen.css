@@ -106,7 +106,7 @@
 /* Галактика в центре */ 
 .main_galaxy {
     display: block;
-    position: relative;
+    position: absolute;
     margin: 5vw auto;
     height: 50vw;
     width:50vw;
@@ -127,5 +127,6 @@
   justify-content:space-between;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
   margin-top: -5vw;
 }

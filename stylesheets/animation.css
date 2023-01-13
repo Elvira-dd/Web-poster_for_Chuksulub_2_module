@@ -9,9 +9,9 @@
 }
 @keyframes main_galaxy {
     0% { transform: rotate(0deg);}
-    25% {transform: rotate(90deg) scale(1.1) ;}
-    75% {transform: rotate(270deg) scale(0.95) ;}
-    100% {transform: rotate(360deg);}
+    25% {transform: rotate(-90deg) scale(1.1) ;}
+    75% {transform: rotate(-270deg) scale(0.95) ;}
+    100% {transform: rotate(-360deg);}
 }
 @keyframes bg_left_galaxy_1 {
     0%{

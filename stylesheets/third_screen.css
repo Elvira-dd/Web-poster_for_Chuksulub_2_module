@@ -227,3 +227,11 @@
     margin-left: -1.5vw;
     z-index: 100;
   }
+  .third_background {
+    position: absolute;
+    background-color: aqua;
+  }
+  .third_background img:nth-child(1) {
+    width: 7vw;
+    height: 7vw;
+  }
